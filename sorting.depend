@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1551103392 source:d:\c++\sorting\main.cpp
+	<iostream>
+	<windows.h>
+	<time.h>
+	"header.h"
+
+1551103233 d:\c++\sorting\header.h
+
+1550696409 source:d:\c++\sorting\bubble.cpp
+	<iostream>
+	"header.h"
+
+1551098130 source:d:\c++\sorting\sortingdef.cpp
+	<iostream>
+	"header.h"
+
