@@ -20,14 +20,14 @@ int main(){
             treeTab[counter] = rand() % 40 + 1;
             counter++;
         }
-     //tworzymy liúcie drzewa
+     //tworzymy li≈ìcie drzewa
     BTNode G = {NULL,NULL,treeTab[6]};
     BTNode H = {NULL,NULL,treeTab[7]};
     BTNode I = {NULL,NULL,treeTab[8]};
     BTNode J = {NULL,NULL,treeTab[9]};
     BTNode K = {NULL,NULL,treeTab[10]};
 
-    // Tworzymy kolejnych ojcÛw
+    // Tworzymy kolejnych ojc√≥w
 
     BTNode D = { &H,  &I,treeTab[3]};
     BTNode E = { &J,NULL,treeTab[4]};
@@ -35,7 +35,7 @@ int main(){
     BTNode B = { &D,  &E,treeTab[1]};
     BTNode C = { &F,  &G,treeTab[2]};
 
-    // Tworzymy korzeÒ drzewa
+    // Tworzymy korze√± drzewa
 
     BTNode A = { &B,  &C,treeTab[0]};
     cout<<"=======================================\n";
@@ -59,7 +59,7 @@ int main(){
 		setPosition(3,16);  cout << "QUIT";
 		cout<<endl;
 		cout<<endl;
-		system("pause>nul");
+	
 
 		if(GetAsyncKeyState(VK_DOWN) && x != 16) //down button pressed
 			{
